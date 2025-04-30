@@ -2,11 +2,15 @@ body,
 html {
     font-family: 'Fjalla One', sans-serif;
 }
-a{
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* a{
     max-width: 100%;
     height: auto / 3;
     width: auto\9 / 3;
-}
+} */
 .project {
     margin: 40px;
     display: flex;
