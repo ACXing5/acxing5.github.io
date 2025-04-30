@@ -4,8 +4,8 @@ html {
 }
 img {
     max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
+    height: auto / 3;
+    width: auto\9 / 3; /* ie8 */
 }
 
 .project {
