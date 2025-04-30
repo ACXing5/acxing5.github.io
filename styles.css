@@ -2,11 +2,11 @@ body,
 html {
     font-family: 'Fjalla One', sans-serif;
 }
-/* 
 img {
-    width:130px;
-    height: 120px;
-} */
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 
 .project {
     margin: 40px;
