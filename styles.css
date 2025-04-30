@@ -14,6 +14,7 @@ img {
 } */
 .project {
     margin: 40px;
+    padding: 20px;
     display: flex;
 /*     text-align: center;
     top: 50%;
