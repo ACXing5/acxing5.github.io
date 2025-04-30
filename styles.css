@@ -3,6 +3,11 @@ html {
     font-family: 'Fjalla One', sans-serif;
 }
 
+img {
+    width:200px;
+    height:100px;
+}
+
 .project {
     margin: 40px;
     display: flex
