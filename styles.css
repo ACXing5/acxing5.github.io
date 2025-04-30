@@ -5,6 +5,7 @@ html {
 
 .project {
     margin: 40px;
+    display: flex
 /*     text-align: center;
     top: 50%;
     left: 50%;
