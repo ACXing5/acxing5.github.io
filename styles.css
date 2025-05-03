@@ -13,13 +13,16 @@ img {
     width: auto\9 / 3;
 } */
 .project {
-    margin: 40px;
     padding: 20px;
     display: flex;
 /*     text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
+}
+
+.project > div {
+  margin: 10px;
 }
 
 .container {
