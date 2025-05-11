@@ -3,10 +3,6 @@ html {
     font-family: 'Fjalla One', sans-serif;
 }
 
-/* img {
-    height: 300px;
-    width: 405px;
-} */
 a {
     text-decoration: none;
     border: 0;
@@ -53,84 +49,5 @@ img:hover {
 @media (min-width: 1025px) {
     .project img {
         width: 31%;
-    }
-}
-
-
-.container {
-    margin: auto;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.calculator {
-    padding: 0.25rem;
-    display: inline-block;
-}
-
-table {
-    margin: auto;
-}
-
-button {
-    border: none;
-    background-color: white;
-    width: 20vw;
-    height: 10vh;
-    padding: 0.5rem 0;
-    margin: 0.25vmax;
-    font-size: 2rem;
-    border-radius: 0.5rem;
-    -moz-transition: all ease 0.5s;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    -o-transition: all ease 0.5s;
-}
-
-button:hover {
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-    -moz-transition: all ease 0.5s;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    -o-transition: all ease 0.5s;
-}
-
-/* a{
-    outline: none;
-    -moz-transition: all ease 0.5s;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    -o-transition: all ease 0.5s;
-} */
-
-/* a:hover{
-    text-shadow: 0px 0px 10px rgba(241, 196, 15, 0.5);
-    -moz-transition: all ease 0.5s;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    -o-transition: all ease 0.5s;
-} */
-
-#turn {
-    display: none;
-    z-index: 100;
-    position: fixed;
-}
-
-@media (orientation: landscape) and (max-height: 500px) {
-    #turn {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2rem;
-        color: rgba(52, 73, 94, 1.0);
-        background-color: rgba(236, 240, 241, 1.0);
     }
 }
