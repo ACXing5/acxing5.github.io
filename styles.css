@@ -1,0 +1,53 @@
+body,
+html {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    border: 0;
+}
+img:hover {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -o-transition: all ease 0.5s;
+}
+
+.project img {
+    display: in-line-block;
+    width: 30%;
+    height: auto;
+    margin: 1%;
+    border: 0;
+}
+
+/* Show only first 3 images on small screens */
+@media (max-width: 600px) {
+    .project img:nth-child(-n+3) {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Show 6 images on medium screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .project img:nth-child(-n+6) {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Show all images on large screens */
+@media (min-width: 1025px) {
+    .project img {
+        width: 31%;
+    }
+}
