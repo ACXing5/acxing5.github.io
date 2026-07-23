@@ -29,7 +29,7 @@ const projects = [
   {
     id: 'public-database',
     className: 'database',
-    href: 'https://acxing5.github.io/Public-Database/',
+    href: 'https://public-database.vercel.app/',
     logo: publicDatabase,
     alt: 'Public Database logo',
     title: 'Public Database',
