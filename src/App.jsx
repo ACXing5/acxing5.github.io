@@ -18,7 +18,7 @@ const projects = [
   {
     id: 'bloodborne-aaa',
     className: 'bloodborne',
-    href: 'https://top.gg/bot/1325883848688533594',
+    href: 'https://bloodborne-aaa.vercel.app/',
     logo: baaaLogo,
     alt: 'Bloodborne AAA Discord Bot logo',
     title: 'Bloodborne AAA',
